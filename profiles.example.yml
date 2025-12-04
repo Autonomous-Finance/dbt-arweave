@@ -1,0 +1,29 @@
+# Example dbt profiles configuration for ClickHouse
+# Copy this file to profiles.yml and update with your credentials
+#
+# IMPORTANT: Never commit profiles.yml with actual credentials to version control!
+
+arweave:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      host: localhost  # Your ClickHouse host
+      user: default    # Your database user
+      password: ""     # Your database password
+      port: 8123
+      dbname: default
+      schema: staging
+      use_lw_deletes: true
+      threads: 4
+    prod:
+      type: clickhouse
+      host: localhost  # Your production ClickHouse host
+      user: default    # Your database user
+      password: ""     # Your database password
+      port: 8123
+      dbname: default
+      schema: prod
+      use_lw_deletes: true
+      threads: 4
+

@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: goldsky
+    schema: default
+    tables:
+      - name: transactions
+
+  - name: gateway
+    schema: default
+    tables:
+      - name: block_dates

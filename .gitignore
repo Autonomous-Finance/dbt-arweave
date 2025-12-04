@@ -1,0 +1,28 @@
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Credentials - NEVER commit these
+profiles.yml
+*.pem
+*.key
+
+# Environment files
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

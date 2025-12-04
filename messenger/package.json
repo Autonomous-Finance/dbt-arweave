@@ -1,0 +1,21 @@
+{
+  "name": "dbt-arweave-messenger",
+  "version": "1.0.0",
+  "description": "AO message service for dbt-arweave analytics",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "arweave",
+    "ao",
+    "analytics",
+    "dbt"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@permaweb/aoconnect": "^0.0.56",
+    "clickhouse": "^2.6.0"
+  }
+}
+
