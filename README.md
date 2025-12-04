@@ -22,7 +22,7 @@ A comprehensive **dbt (data build tool)** project for analyzing and transforming
 
 ## Overview
 
-**dbt-arweave** was developed by [Roark Technology](https://roark.com) to power analytics dashboards and insights for the Arweave ecosystem. It transforms raw blockchain data into meaningful metrics, aggregations, and statistics.
+**dbt-arweave** was developed by Roark Technology to power analytics dashboards and insights for the Arweave ecosystem. It transforms raw blockchain data into meaningful metrics, aggregations, and statistics.
 
 ### Key Features
 
