@@ -14,7 +14,7 @@
 
 > **⚠️ ARCHIVED PROJECT**  
 > This repository is no longer maintained and is provided as-is for reference purposes only.
-> No support, updates, or bug fixes will be provided.
+> No support, updates, or bug fixes will be provided. It was originally developed by Roark Technologies
 
 ---
 
